@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#08090b">
-  <meta name="description" content="منيو تيفولي الكامل في قرية مرحباً: 48 صنفاً بالعربية والإنجليزية، بتصميم أسود وذهبي فاخر وعروض خاصة للمناسبات.">
-  <title>تيفولي × قرية مرحباً | ضيافة تليق بمناسباتكم</title>
+  <meta name="description" content="منيو تيفولي الكامل في HOLS: 48 صنفاً بالعربية والإنجليزية، بتصميم أسود وذهبي فاخر وعروض خاصة للمناسبات.">
+  <title>تيفولي × HOLS | ضيافة تليق بمناسباتكم</title>
   <style>
     :root {
       --ink: #17231f;
@@ -269,6 +269,10 @@
     .menu-list { display: grid; grid-template-columns: 1fr; gap: 16px; border: 0; }
     .category-card { position: relative; overflow: hidden; padding: 21px; border: 1px solid rgba(255,255,255,.15); border-radius: 12px; background: linear-gradient(145deg, rgba(255,255,255,.095), rgba(255,255,255,.035)); box-shadow: 0 18px 42px rgba(0,0,0,.2); backdrop-filter: blur(14px); animation: appear .3s ease both; }
     .category-card::before { content: ""; position: absolute; top: 0; inset-inline-start: 0; width: 85px; height: 1px; background: linear-gradient(90deg, transparent, var(--gold)); }
+    .category-cover { position: relative; height: clamp(130px, 20vw, 190px); overflow: hidden; margin: -6px -6px 17px; border-radius: 8px; background: #1a1b1d; }
+    .category-cover img { width: 100%; height: 100%; display: block; object-fit: cover; filter: brightness(.78); }
+    .category-cover::after { content: ""; position: absolute; inset: 35% 0 0; background: linear-gradient(transparent, rgba(0,0,0,.62)); }
+    .category-cover span { position: absolute; z-index: 1; inset-inline-start: 13px; bottom: 9px; color: #fffaf1; font-size: 10px; letter-spacing: .16em; direction: ltr; }
     .category-head { display: flex; align-items: center; gap: 13px; margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid rgba(220,187,117,.2); }
     .category-mark { width: 39px; height: 39px; flex: 0 0 39px; display: grid; place-items: center; border: 1px solid rgba(220,187,117,.55); border-radius: 50%; color: var(--gold-light); font-family: var(--serif); font-size: 16px; }
     .category-head h3 { margin: 0; color: #fff; font-family: var(--serif); font-size: 21px; font-weight: 500; line-height: 1.35; }
@@ -280,6 +284,9 @@
     .product-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
     .product-card { min-height: 126px; display: flex; flex-direction: column; padding: 14px; border: 1px solid rgba(255,255,255,.13); border-radius: 9px; background: rgba(255,255,255,.055); backdrop-filter: blur(9px); transition: border-color .2s, transform .2s, background .2s; }
     .product-card:hover { transform: translateY(-2px); border-color: rgba(220,187,117,.6); background: rgba(255,255,255,.085); }
+    .product-photos { margin: 0 0 11px; }
+    .product-photos.has-extra { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 6px; }
+    .product-photo { width: 100%; aspect-ratio: 1.65; display: block; border-radius: 6px; object-fit: cover; background: #18191a; }
     .product-card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
     .product-card-head > div { min-width: 0; flex: 1; }
     .product-card h4 { margin: 0; color: #fffdf8; font-family: var(--serif); font-size: 16px; font-weight: 500; line-height: 1.5; }
@@ -408,8 +415,8 @@
 <body>
   <div class="topline">
     <div class="container">
-      <span>دعوة إلى ضيافة استثنائية في قرية مرحباً</span>
-      <span class="topline-side"><strong>تيفولي × مرحباً</strong> &nbsp;·&nbsp; امتيازات خاصة لضيوف القرية</span>
+      <span>دعوة إلى ضيافة استثنائية في HOLS</span>
+      <span class="topline-side"><strong>تيفولي × HOLS</strong> &nbsp;·&nbsp; امتيازات خاصة لضيوف HOLS</span>
     </div>
   </div>
   <header class="header">
@@ -433,9 +440,9 @@
     <section class="hero" id="home">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <div class="eyebrow">شراكة تيفولي وقرية مرحباً</div>
+          <div class="eyebrow">شراكة تيفولي وHOLS</div>
           <h1>حيث تلتقي الضيافة الراقية بأشهى المذاقات..</h1>
-          <p>يسعد ويشرف <strong>مطعم وكافيه تيفولي</strong>، بالتعاون المميّز مع <strong>قرية مرحباً</strong>، أن يضع بين أيديكم تجربة طهي استثنائية وعروضاً حصرية صُممت لتناسب ذوقكم الرفيع.</p>
+          <p>يسعد ويشرف <strong>مطعم وكافيه تيفولي</strong>، بالتعاون المميّز مع <strong>HOLS</strong>، أن يضع بين أيديكم تجربة طهي استثنائية وعروضاً حصرية صُممت لتناسب ذوقكم الرفيع.</p>
           <p>لا نكتفي بتقديم أشهى الأطباق فحسب، بل ننقل روح مطبخنا بالكامل إلى قلب مناسباتكم الخاصة؛ لنصنع من حفلات أعياد الميلاد، التجمعات العائلية، والعزومات الفاخرة ذكرى لا تُنسى بخدمة فندقية متكاملة وتجهيز حي يُبهر ضيوفكم.</p>
           <div class="hero-actions">
             <a class="button" href="#booking">احجز مناسبتك الآن <span aria-hidden="true">↙</span></a>
@@ -451,11 +458,11 @@
       <span class="scroll-hint" aria-hidden="true">اكتشفوا تيفولي &nbsp; ↓</span>
     </section>
 
-    <div class="partnership" aria-label="تيفولي بالتعاون مع قرية مرحباً">
+    <div class="partnership" aria-label="تيفولي بالتعاون مع HOLS">
       <div class="container partner-row">
         <div class="partner-word"><small>الضيافة والمذاق</small><b>مطعم وكافيه تيفولي</b></div>
         <span class="partner-x" aria-hidden="true">×</span>
-        <div class="partner-word"><small>وجهتكم للمناسبات</small><b>قرية مرحباً</b></div>
+        <div class="partner-word"><small>وجهتكم للمناسبات</small><b>HOLS</b></div>
       </div>
     </div>
 
@@ -477,7 +484,7 @@
           </article>
           <article class="benefit">
             <span class="icon"><svg viewBox="0 0 24 24"><path d="M12 3 14.7 8.5 21 9.4 16.5 13.8 17.6 20 12 17.1 6.4 20 7.5 13.8 3 9.4 9.3 8.5 12 3Z"/></svg></span>
-            <h3>أسعار الشراكة</h3><p>امتيازات خاصة لضيوف قرية مرحباً عند تنسيق الحجز.</p>
+            <h3>أسعار الشراكة</h3><p>امتيازات خاصة لضيوف HOLS عند تنسيق الحجز.</p>
           </article>
           <article class="benefit">
             <span class="icon"><svg viewBox="0 0 24 24"><path d="M12 21s-8-4.5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.5-8 11-8 11Z"/><path d="M8 12h2l1-2 2 4 1-2h2"/></svg></span>
@@ -600,7 +607,7 @@
         <div class="booking-copy">
           <div class="eyebrow">خطوتكم الأولى</div>
           <h2>دعوتكم تبدأ من هنا</h2>
-          <p>أرسلوا لنا تفاصيل أولية عن مناسبتكم لنجهّز لكم تصوراً مناسباً وقيمة خاصة لضيوف قرية مرحباً.</p>
+          <p>أرسلوا لنا تفاصيل أولية عن مناسبتكم لنجهّز لكم تصوراً مناسباً وقيمة خاصة لضيوف HOLS.</p>
           <div class="booking-highlight">كل مناسبة تستحق أن تُروى بطريقتها.</div>
         </div>
         <form class="booking-form" id="bookingForm">
@@ -626,15 +633,15 @@
     <div class="container">
       <div class="footer-main">
         <div class="footer-block">
-          <span class="footer-brand">TIVOLI × MARHABA</span>
-          <p>مطعم وكافيه تيفولي بالتعاون مع قرية مرحباً</p>
+          <span class="footer-brand">TIVOLI × HOLS</span>
+          <p>مطعم وكافيه تيفولي بالتعاون مع HOLS</p>
           <p class="footer-tagline">Tivoli Restaurant &amp; Café<br>Where every dish tells a story ✨<br>☕ Food • Coffee • Moments<br>📍 Port Said</p>
         </div>
         <div class="footer-block">
           <h3>تواصلوا معنا</h3>
           <div class="footer-links">
-            <a href="tel:+201280170555" dir="ltr">01280170555 · اتصال</a>
-            <a href="https://wa.me/201280170555" target="_blank" rel="noopener noreferrer">واتساب للحجز والاستفسار</a>
+            <a href="tel:+201117484028" dir="ltr">01117484028 · اتصال</a>
+            <a href="https://wa.me/201117484028" target="_blank" rel="noopener noreferrer">واتساب للحجز والاستفسار</a>
             <a href="https://www.google.com/maps/search/?api=1&amp;query=78C4%2B5MQ%2C%20El%20Shaheed%20Atef%20El-Sadat%2C%20El%20Sharq%2C%20Port%20Said%208574015" target="_blank" rel="noopener noreferrer">78C4+5MQ، الشهيد عاطف السادات، قسم الشرق، محافظة بورسعيد 8574015</a>
           </div>
         </div>
@@ -647,8 +654,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span class="footer-brand">TIVOLI × MARHABA</span>
-        <span>مطعم وكافيه تيفولي بالتعاون مع قرية مرحباً</span>
+        <span class="footer-brand">TIVOLI × HOLS</span>
+        <span>مطعم وكافيه تيفولي بالتعاون مع HOLS</span>
         <a href="#home">العودة إلى الأعلى ↑</a>
       </div>
       <div class="footer-rights">جميع حقوق النشر محفوظة لصالح شركة BTA System Solutions ممر طوارئ جنة النورس للتواصل : <a href="tel:+201205062357" dir="ltr">01205062357</a></div>
@@ -656,77 +663,77 @@
   </footer>
   <script>
     const menuCategories = [
-      { id: "pasta", name: "الباستا", english: "PASTA", mark: "01", products: [
-        { ar: "مكرونة بشاميل", en: "Bechamel Pasta", price: "200" },
-        { ar: "مكرونة نجرسكو", en: "Negresco Pasta", price: "200" },
-        { ar: "باستا كرسبي", en: "Crispy Chicken Pasta", price: "180" },
-        { ar: "اسباجتي بلونيز", en: "Spaghetti Bolognese", price: "150" }
+      { id: "pasta", name: "الباستا", english: "PASTA", mark: "01", cover: "crispy-chicken-pasta.jpg", products: [
+        { ar: "مكرونة بشاميل", en: "Bechamel Pasta", image: "bechamel-pasta.jpg", price: "200" },
+        { ar: "مكرونة نجرسكو", en: "Negresco Pasta", image: "negresco-pasta.jpg", price: "200" },
+        { ar: "باستا كرسبي", en: "Crispy Chicken Pasta", image: "crispy-pasta.jpg", price: "180" },
+        { ar: "اسباجتي بلونيز", en: "Spaghetti Bolognese", image: "spaghetti-bolognese.jpg", price: "150" }
       ]},
-      { id: "pizza", name: "البيتزا", english: "PIZZA", mark: "02", products: [
-        { ar: "بيتزا باربكيو", en: "BBQ Pizza", price: "250" },
-        { ar: "بيتزا لحوم وفراخ", en: "Meat and Chicken Pizza (Mix Meat Pizza)", price: "275" },
-        { ar: "بيتزا بسطرمة", en: "Pastrami Pizza", price: "200" },
-        { ar: "بيتزا مشكل جبن", en: "Mixed Cheese Pizza", price: "230" }
+      { id: "pizza", name: "البيتزا", english: "PIZZA", mark: "02", cover: "bbq-pizza.jpg", products: [
+        { ar: "بيتزا باربكيو", en: "BBQ Pizza", image: "bbq-pizza.jpg", price: "250" },
+        { ar: "بيتزا لحوم وفراخ", en: "Meat and Chicken Pizza (Mix Meat Pizza)", image: "meat-pizza.jpg", price: "275" },
+        { ar: "بيتزا بسطرمة", en: "Pastrami Pizza", image: "pastrami-pizza.jpg", price: "200" },
+        { ar: "بيتزا مشكل جبن", en: "Mixed Cheese Pizza", image: "mixed-cheese-pizza.jpg", price: "230" }
       ]},
-      { id: "sandwich", name: "السندوتشات", english: "SANDWICHES", mark: "03", products: [
-        { ar: "سندوتش كفتة", en: "Kofta Sandwich", price: "125" },
-        { ar: "سندوتش برجر", en: "Burger Sandwich", price: "160" },
-        { ar: "سندوتش كرسبي", en: "Crispy Chicken Sandwich", price: "150" },
-        { ar: "سندوتش شيش", en: "Shish Tawook Sandwich", price: "130" },
-        { ar: "سندوتش استيك أند تشيز", en: "Steak and Cheese Sandwich", price: "140" }
+      { id: "sandwich", name: "السندوتشات", english: "SANDWICHES", mark: "03", cover: "crispy-chicken-sandwich.jpg", products: [
+        { ar: "سندوتش كفتة", en: "Kofta Sandwich", image: "kofta-sandwich.jpg", price: "125" },
+        { ar: "سندوتش برجر", en: "Burger Sandwich", image: "kofta-sandwich.jpg", price: "160" },
+        { ar: "سندوتش كرسبي", en: "Crispy Chicken Sandwich", image: "crispy-chicken-sandwich.jpg", price: "150" },
+        { ar: "سندوتش شيش", en: "Shish Tawook Sandwich", image: "shish-tawook.jpg", price: "130" },
+        { ar: "سندوتش استيك أند تشيز", en: "Steak and Cheese Sandwich", image: "butter-steak.jpg", price: "140" }
       ]},
-      { id: "chicken", name: "أطباق الفراخ", english: "CHICKEN", mark: "04", note: "باختيار سايد أرز مع بطاطس أو مكرونة", products: [
-        { ar: "تشكن سكالوبيني", en: "Chicken Scaloppini", price: "340" },
-        { ar: "تشكن بيكاتا", en: "Chicken Piccata", price: "340" },
-        { ar: "تشكن بانية", en: "Chicken Pane", price: "340" }
+      { id: "chicken", name: "أطباق الفراخ", english: "CHICKEN", mark: "04", cover: "chicken-fajita.webp", note: "باختيار سايد أرز مع بطاطس أو مكرونة", products: [
+        { ar: "تشكن سكالوبيني", en: "Chicken Scaloppini", image: "chicken-mushroom.jpg", price: "340" },
+        { ar: "تشكن بيكاتا", en: "Chicken Piccata", image: "grilled-chicken-platter.webp", extraImage: "herb-grilled-chicken.webp", price: "340" },
+        { ar: "تشكن بانية", en: "Chicken Pane", image: "chicken-pane.webp", price: "340" }
       ]},
-      { id: "meat", name: "أطباق اللحوم", english: "BEEF", mark: "05", note: "باختيار سايد أرز مع بطاطس أو مكرونة", products: [
-        { ar: "فليه مشروم أو بير صوص", en: "Beef Fillet with Mushroom or Pepper Sauce", price: "450" },
-        { ar: "بيف بيكاتا", en: "Beef Piccata", price: "430" },
-        { ar: "بيف استراجنوف", en: "Beef Stroganoff", price: "420" },
-        { ar: "لحمة بالزبدة", en: "Steak with Butter Sauce", price: "400" }
+      { id: "meat", name: "أطباق اللحوم", english: "BEEF", mark: "05", cover: "beef-stroganoff.webp", note: "باختيار سايد أرز مع بطاطس أو مكرونة", products: [
+        { ar: "فليه مشروم أو بير صوص", en: "Beef Fillet with Mushroom or Pepper Sauce", image: "beef-mushroom-pepper-sauce.jpg", price: "450" },
+        { ar: "بيف بيكاتا", en: "Beef Piccata", image: "butter-steak.jpg", price: "430" },
+        { ar: "بيف استراجنوف", en: "Beef Stroganoff", image: "beef-stroganoff.webp", price: "420" },
+        { ar: "لحمة بالزبدة", en: "Steak with Butter Sauce", image: "butter-steak.jpg", price: "400" }
       ]},
-      { id: "eastern", name: "ركن الشرقي", english: "EASTERN CORNER", mark: "06", products: [
-        { ar: "موزة ضاني", en: "Lamb Shank (with Fatta or Potatoes)", detail: "فتة أو بطاطس.", price: "550" },
-        { ar: "موزة بصل", en: "Beef Shank with Onions", detail: "موزة كندوز بالبصل.", price: "480" },
-        { ar: "بطاطس باللحمة", en: "Potatoes with Beef (served with Rice & Soup)", detail: "أرز وشوربة.", price: "400" },
-        { ar: "ورقة لحمة", en: "Egyptian Meat Parcels", price: "450" },
-        { ar: "طاجن ورق عنب أو فتة", en: "Stuffed Grape Leaves Casserole or Fatta (with Trotters or Beef)", detail: "كوارع أو كندوز.", price: "450" }
+      { id: "eastern", name: "ركن الشرقي", english: "EASTERN CORNER", mark: "06", cover: "meat-parcels.webp", products: [
+        { ar: "موزة ضاني", en: "Lamb Shank (with Fatta or Potatoes)", image: "lamb-with-onions.webp",detail: "فتة أو بطاطس.", price: "550" },
+        { ar: "موزة بصل", en: "Beef Shank with Onions", image: "lamb-with-onions.webp",detail: "موزة كندوز بالبصل.", price: "480" },
+        { ar: "بطاطس باللحمة", en: "Potatoes with Beef (served with Rice & Soup)", image: "beef-and-potatoes.webp",detail: "أرز وشوربة.", price: "400" },
+        { ar: "ورقة لحمة", en: "Egyptian Meat Parcels", image: "meat-parcels.webp", price: "450" },
+        { ar: "طاجن ورق عنب أو فتة", en: "Stuffed Grape Leaves Casserole or Fatta (with Trotters or Beef)", image: "oriental-casserole.webp",detail: "كوارع أو كندوز.", price: "450" }
       ]},
-      { id: "grill", name: "المشويات", english: "GRILL BY THE KILO", mark: "07", note: "بالكيلو • تشمل السلطات والطحينة", unit: "للكيلو", products: [
-        { ar: "كفتة مشوية", en: "Grilled Kofta", price: "700" },
-        { ar: "شيش طاووق", en: "Shish Tawook", price: "600" },
-        { ar: "كباب صافي", en: "Pure Kebab", price: "1200" },
-        { ar: "كيلو مشكل (كباب - كفتة - شيش)", en: "Kg Mixed Grill (Kebab - Kofta - Shish)", price: "900" }
+      { id: "grill", name: "المشويات", english: "GRILL BY THE KILO", mark: "07", cover: "mixed-grill.jpg", note: "بالكيلو • تشمل السلطات والطحينة", unit: "للكيلو", products: [
+        { ar: "كفتة مشوية", en: "Grilled Kofta", image: "grilled-kofta.jpg", price: "700" },
+        { ar: "شيش طاووق", en: "Shish Tawook", image: "shish-tawook.jpg", price: "600" },
+        { ar: "كباب صافي", en: "Pure Kebab", image: "beef-fajita.webp", price: "1200" },
+        { ar: "كيلو مشكل (كباب - كفتة - شيش)", en: "Kg Mixed Grill (Kebab - Kofta - Shish)", image: "mixed-kilo-grill.jpg", extraImage: "kofta-and-shish.jpg", price: "900" }
       ]},
-      { id: "dessert", name: "الحلويات", english: "DESSERTS", mark: "08", products: [
-        { ar: "نابلسية", en: "Nabulsi Kunafa", price: "160" },
-        { ar: "عثمانلية", en: "Osmanliya", price: "105" },
-        { ar: "حلوى الجبن", en: "Halawet El Jibn", price: "100" },
-        { ar: "وافل شوكولاتة", en: "Chocolate Waffle", price: "100" },
-        { ar: "كريب شوكولاتة", en: "Chocolate Crepe", price: "100" }
+      { id: "dessert", name: "الحلويات", english: "DESSERTS", mark: "08", cover: "nabulsi-kunafa.jpg", products: [
+        { ar: "نابلسية", en: "Nabulsi Kunafa", image: "nabulsi-kunafa.jpg", price: "160" },
+        { ar: "عثمانلية", en: "Osmanliya", image: "osmanliya.jpg", price: "105" },
+        { ar: "حلوى الجبن", en: "Halawet El Jibn", image: "nabulsi-kunafa.jpg", price: "100" },
+        { ar: "وافل شوكولاتة", en: "Chocolate Waffle", image: "chocolate-waffle.jpg", price: "100" },
+        { ar: "كريب شوكولاتة", en: "Chocolate Crepe", image: "chocolate-crepe.jpg", price: "100" }
       ]},
-      { id: "appetizer", name: "المقبلات", english: "APPETIZERS", mark: "09", products: [
-        { ar: "سمبوسك جبنة", en: "Cheese Sambousek", price: "70" },
-        { ar: "سمبوسك لحمة", en: "Meat Sambousek", price: "80" },
-        { ar: "ورق عنب", en: "Stuffed Grape Leaves", price: "105" }
+      { id: "appetizer", name: "المقبلات", english: "APPETIZERS", mark: "09", cover: "cheese-sambousek.webp", products: [
+        { ar: "سمبوسك جبنة", en: "Cheese Sambousek", image: "cheese-sambousek.webp", price: "70" },
+        { ar: "سمبوسك لحمة", en: "Meat Sambousek", image: "meat-sambousek.webp", price: "80" },
+        { ar: "ورق عنب", en: "Stuffed Grape Leaves", image: "stuffed-grape-leaves.webp", price: "105" }
       ]},
-      { id: "vegetable", name: "الخضار", english: "VEGETABLES", mark: "10", products: [
-        { ar: "ملوخية", en: "Molokhia with Rice", detail: "تُقدّم مع الأرز.", price: "100" },
-        { ar: "طاجن بطاطس", en: "Potato Casserole with Rice", detail: "يُقدّم مع الأرز.", price: "100" },
-        { ar: "طاجن تورلي", en: "Mixed Vegetable Casserole with Rice", detail: "يُقدّم مع الأرز.", price: "100" }
+      { id: "vegetable", name: "الخضار", english: "VEGETABLES", mark: "10", cover: "molokhia.webp", products: [
+        { ar: "ملوخية", en: "Molokhia with Rice", image: "molokhia.webp",detail: "تُقدّم مع الأرز.", price: "100" },
+        { ar: "طاجن بطاطس", en: "Potato Casserole with Rice", image: "oriental-casserole.webp",detail: "يُقدّم مع الأرز.", price: "100" },
+        { ar: "طاجن تورلي", en: "Mixed Vegetable Casserole with Rice", image: "oriental-casserole.webp",detail: "يُقدّم مع الأرز.", price: "100" }
       ]},
-      { id: "soup", name: "الشوربة", english: "SOUP", mark: "11", products: [
-        { ar: "شوربة كوارع", en: "Trotters Soup", price: "150" },
-        { ar: "شوربة لسان عصفور", en: "Orzo Soup", price: "50" },
-        { ar: "شوربة فراخ كريمة أو مشروم", en: "Cream of Chicken or Mushroom Soup", price: "100" }
+      { id: "soup", name: "الشوربة", english: "SOUP", mark: "11", cover: "creamy-soup.webp", products: [
+        { ar: "شوربة كوارع", en: "Trotters Soup", image: "creamy-soup.webp", price: "150" },
+        { ar: "شوربة لسان عصفور", en: "Orzo Soup", image: "orzo-soup.webp", price: "50" },
+        { ar: "شوربة فراخ كريمة أو مشروم", en: "Cream of Chicken or Mushroom Soup", image: "creamy-soup.webp", price: "100" }
       ]},
-      { id: "seafood", name: "أطباق السي فود", english: "SEAFOOD", mark: "12", products: [
-        { ar: "مكرونة سي فود", en: "Seafood Pasta", price: "250" },
-        { ar: "نجرسكو سي فود", en: "Seafood Negresco", price: "280" },
-        { ar: "بيتزا سي فود", en: "Seafood Pizza", price: "300" },
-        { ar: "ساندوتش جمبري مقلي", en: "Fried Shrimp Sandwich", price: "200" },
-        { ar: "طبق فاهيتا جمبري وسيبيا", en: "Shrimp and Cuttlefish Fajita", price: "600" }
+      { id: "seafood", name: "أطباق السي فود", english: "SEAFOOD", mark: "12", cover: "shrimp-platter.webp", products: [
+        { ar: "مكرونة سي فود", en: "Seafood Pasta", image: "seafood-pasta.jpg", price: "250" },
+        { ar: "نجرسكو سي فود", en: "Seafood Negresco", image: "seafood-negresco.jpg", price: "280" },
+        { ar: "بيتزا سي فود", en: "Seafood Pizza", image: "chicken-pizza.jpg", price: "300" },
+        { ar: "ساندوتش جمبري مقلي", en: "Fried Shrimp Sandwich", image: "shrimp-platter.webp", price: "200" },
+        { ar: "طبق فاهيتا جمبري وسيبيا", en: "Shrimp and Cuttlefish Fajita", image: "shrimp-platter.webp", price: "600" }
       ]}
     ];
     const cart = new Map();
@@ -782,7 +789,7 @@
     function renderMenu(category = activeCategory) {
       activeCategory = category;
       const chosen = category === "all" ? menuCategories : menuCategories.filter(item => item.id === category);
-      menuList.innerHTML = chosen.map(item => `<section class="category-card" aria-labelledby="category-${item.id}"><header class="category-head"><span class="category-mark">${item.mark}</span><div><h3 id="category-${item.id}">${item.name}</h3><small lang="en" dir="ltr">${item.english}</small></div><div class="category-meta">${item.note ? `<span class="category-note">${item.note}</span>` : ""}<span class="category-count">${item.products.length} أصناف</span></div></header><div class="product-grid">${item.products.map((product, productIndex) => `<article class="product-card"><div class="product-card-head"><div><h4>${product.ar}</h4><p class="product-en" lang="en" dir="ltr">${product.en}</p></div><span class="product-price"><b>${product.price}</b><small>${item.unit || "السعر"}</small></span></div>${product.detail ? `<p class="product-detail">${product.detail}</p>` : ""}<button class="add-to-cart" type="button" data-add-product="${item.id}:${productIndex}" aria-label="إضافة ${product.ar} إلى السلة"><span>إضافة للسلة</span><span class="product-cart-qty" data-cart-qty="${item.id}:${productIndex}" data-product-name="${product.ar}" aria-hidden="true">+</span></button></article>`).join("")}</div></section>`).join("");
+      menuList.innerHTML = chosen.map(item => `<section class="category-card" aria-labelledby="category-${item.id}"><div class="category-cover"><img src="assets/${item.cover}" alt="${item.name}" loading="lazy" decoding="async"><span>${item.english}</span></div><header class="category-head"><span class="category-mark">${item.mark}</span><div><h3 id="category-${item.id}">${item.name}</h3><small lang="en" dir="ltr">${item.english}</small></div><div class="category-meta">${item.note ? `<span class="category-note">${item.note}</span>` : ""}<span class="category-count">${item.products.length} أصناف</span></div></header><div class="product-grid">${item.products.map((product, productIndex) => `<article class="product-card"><div class="product-photos${product.extraImage ? " has-extra" : ""}"><img class="product-photo" src="assets/${product.image}" alt="${product.ar}" loading="lazy" decoding="async">${product.extraImage ? `<img class="product-photo" src="assets/${product.extraImage}" alt="${product.ar} - صورة إضافية" loading="lazy" decoding="async">` : ""}</div><div class="product-card-head"><div><h4>${product.ar}</h4><p class="product-en" lang="en" dir="ltr">${product.en}</p></div><span class="product-price"><b>${product.price}</b><small>${item.unit || "السعر"}</small></span></div>${product.detail ? `<p class="product-detail">${product.detail}</p>` : ""}<button class="add-to-cart" type="button" data-add-product="${item.id}:${productIndex}" aria-label="إضافة ${product.ar} إلى السلة"><span>إضافة للسلة</span><span class="product-cart-qty" data-cart-qty="${item.id}:${productIndex}" data-product-name="${product.ar}" aria-hidden="true">+</span></button></article>`).join("")}</div></section>`).join("");
       refreshProductBadges();
     }
     renderMenu();
@@ -852,7 +859,7 @@
       event.preventDefault();
       const data = new FormData(event.currentTarget);
       const lines = [
-        "طلب حجز مناسبة — تيفولي × قرية مرحباً",
+        "طلب حجز مناسبة — تيفولي × HOLS",
         `الاسم: ${data.get("name")}`,
         `رقم التواصل: ${data.get("phone")}`,
         `نوع المناسبة: ${data.get("occasion")}`,
@@ -868,7 +875,7 @@
         "أرجو تزويدي بالتفاصيل والأسعار الخاصة بالشراكة."
       ].filter(Boolean).join("\n");
       const status = document.getElementById("formStatus");
-      const whatsappUrl = new URL("https://wa.me/201280170555");
+      const whatsappUrl = new URL("https://wa.me/201117484028");
       whatsappUrl.searchParams.set("text", lines);
       window.open(whatsappUrl.toString(), "_blank", "noopener,noreferrer");
       status.textContent = "فُتح واتساب برسالة الحجز الجاهزة. راجعوا التفاصيل واضغطوا إرسال لإتمام الطلب.";
